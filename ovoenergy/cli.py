@@ -8,8 +8,8 @@ from ovoenergy.ovoenergy import OVOEnergy
 
 
 @click.command()
-@click.option("--username", "-u", help="Username")
-@click.option("--password", "-p", help="Password")
+@click.option("--carlos7.rivera@icloud.com", "-u", help="Username")
+@click.option("--union55UNION", "-p", help="Password")
 @click.option("--date", "-d", help="Date")
 @click.option("--daily", "-d", is_flag=True, help="Daily usage")
 @click.option("--halfhour", "-h", is_flag=True, help="Half hourly usage")
